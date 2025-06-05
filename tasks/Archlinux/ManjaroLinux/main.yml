@@ -1,0 +1,9 @@
+---
+# https://wiki.archlinux.org/title/Android_Debug_Bridge
+- name: android-tools
+  community.general.pacman:
+    name:
+    - android-tools
+    state: latest
+    update_cache: true
+  become: true
